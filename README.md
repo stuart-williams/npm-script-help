@@ -50,3 +50,12 @@ Run:
 ```js
 npm run help
 ```
+
+Outputs:
+
+```bash
+Script     Usage                                       Description
+
+start      NODE_ENV=development npm start              Starts the server (or some more useful
+           NODE_ENV=production npm start               description)
+```

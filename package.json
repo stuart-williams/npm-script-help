@@ -1,0 +1,42 @@
+{
+  "name": "npm-script-help",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "babel --presets es2015 index.js --out-dir bin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scriptHelp": {
+    "build": {
+      "desc": "Run babel transpilation and output to '/bin' directory"
+    }
+  },
+  "bin": {
+    "npm-help": "./bin/index.js"
+  },
+  "author": "Stuart Williams",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cliui": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "eslint": "^3.8.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-jasmine": "^1.8.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuart-williams/npm-script-help.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stuart-williams/npm-script-help/issues"
+  },
+  "homepage": "https://github.com/stuart-williams/npm-script-help#readme",
+  "description": ""
+}

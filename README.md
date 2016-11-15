@@ -3,8 +3,8 @@ Utility to document npm scripts
 
 # Installation
 
-```js
-npm install npm-script-help -g // or
+```bash
+npm install npm-script-help -g # or
 npm install npm-script-help --save-dev
 ```
 
@@ -31,7 +31,7 @@ Add a `scriptHelp` config object to your package.json
 
 Run:
 
-```js
+```bash
 npm-help // In your project root
 ```
 
@@ -47,7 +47,7 @@ We suggest adding a script to your package.json
 
 Run:
 
-```js
+```bash
 npm run help
 ```
 

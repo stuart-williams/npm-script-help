@@ -7,7 +7,7 @@ const { scriptHelp } = require(path.join(process.cwd(), 'package.json'))
 
 if (!scriptHelp) throw new Error('Failed to find `scriptHelp` config in package.json')
 
-const shortScripts = ['start', 'test']
+const shortScripts = ['start', 'test', 'version']
 const buildCmd = (script) => `npm ${shortScripts.includes(script) ? '' : 'run '}${script}`
 const width = Object.keys(scriptHelp).reduce((accum, { length }) => Math.max(length, accum), 6) + 5
 const padding = [0, 0, 1, 0]

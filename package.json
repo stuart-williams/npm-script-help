@@ -38,5 +38,5 @@
     "url": "https://github.com/stuart-williams/npm-script-help/issues"
   },
   "homepage": "https://github.com/stuart-williams/npm-script-help#readme",
-  "description": ""
+  "description": "Utility to document npm scripts"
 }

@@ -13,7 +13,7 @@ var _require2 = require(path.join(process.cwd(), 'package.json')),
 
 if (!scriptHelp) throw new Error('Failed to find `scriptHelp` config in package.json');
 
-var shortScripts = ['start', 'test'];
+var shortScripts = ['start', 'test', 'version'];
 var buildCmd = function buildCmd(script) {
   return 'npm ' + (shortScripts.includes(script) ? '' : 'run ') + script;
 };

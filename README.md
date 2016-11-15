@@ -32,7 +32,7 @@ Add a `scriptHelp` config object to your package.json
 Run:
 
 ```bash
-npm-help // In your project root
+npm-help # In your project root
 ```
 
 We suggest adding a script to your package.json
